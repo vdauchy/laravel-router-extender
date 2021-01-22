@@ -1,0 +1,24 @@
+{
+  "name": "vdauchy/laravel-routing-extender",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4",
+    "illuminate/support": "*",
+    "illuminate/routing": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "VDauchy\\RoutingExtender\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "VDauchy\\RoutingExtender\\ServiceProvider"
+      ]
+    }
+  }
+}
